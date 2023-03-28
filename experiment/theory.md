@@ -32,7 +32,7 @@
 
 -  If the reference variable of Parent class refers to the object of Child class, it is known as upcasting.
 
-![fig1](images\fig1.jpg)
+![fig1](images/images/fig1.jpg)
 
 - Example:
 
@@ -46,7 +46,7 @@
 
 - Example:
 
-![fig2](images\fig2.jpg)
+![fig2](images/images/fig2.jpg)
 
 After upcasting Splendor to Bike,
 
@@ -83,7 +83,7 @@ After upcasting Splendor to Bike,
     -  But if we use instanceof operator, downcasting is possible.
     -  Example:
 
-![fig3](images\fig3.jpg)
+![fig3](images/images/fig3.jpg)
 
 **Abstract class:**
 
@@ -137,7 +137,7 @@ Rules of abstract class:
 
     -  An overriding can throw any uncheck exceptions, regardless of whether the overridden method throws exception or not.
 
-![fig4](images\fig4.jpg)
+![fig4](images/images/fig4.jpg)
 
  
 Method Overriding in dynamic method dispatch:
@@ -148,7 +148,7 @@ Consider an example where parent class reference is assigned to a child class ob
 
 
 
-![fig7](images\fig7.jpg)
+![fig7](images/images/fig7.jpg)
 
 **Interfaces:**
 
