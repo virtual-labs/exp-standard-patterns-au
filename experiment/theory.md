@@ -179,7 +179,7 @@ Interface is a conceptual entity similar to a Abstract class.
 
 -  Syntax to define an interface:
 
-![fig8](images\fig8.jpg)
+![fig8](images\images\fig8.jpg)
 
 
 
