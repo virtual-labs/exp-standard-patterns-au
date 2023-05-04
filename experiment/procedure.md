@@ -40,23 +40,21 @@ Experiment 5 recap: The aggregation and composition relationship of the class **
 
 Experiment 6 recap: The generalization of the class Customer and class Exec as the class Person was implemented in Java.
 
-Now, the steps to implement the polymorphic behaviour of the Person object as Customer and Exec objects before and after conversion of the class Person as abstract:
+Experiment 7 recap: The steps to implement the polymorphic behaviour of the Person object as Customer and Exec objects before and after conversion of the class Person as abstract are performed.
 
-Step 1: Implement the widening and narrowing of the Person, Customer and Exec object.
+Now, we are to implement the creational design patterns Singleton pattern and Factory pattern in Java.
 
-Step 2: Convert class Person as abstract and implement the widening and narrowing of the Person, Customer and Exec object.
+Step 1: Create the PersonFactory class and implement methods to return objects of the Customer or Exec class based on a text field parameter being passed.
 
-Step 3: Complete the methods in the sequence diagram order of invocation as follows:
+Step 2: Modify the TestDriver class to accommodate the newly added PersonFactory class.
 
-    i. Exec class – requestVehicle
+Step 3: Implement the PersonBuilder class to include the Email, Phone or City fields based on availability.
 
-    ii. Reservation class – locateReservation,
+Step 4: Now implement the singleton pattern by making the RentalSystem object in the TestDriver private and static.
 
-    iii. Exec class – signContract
+Output: Execution of the TestDriver code is shown in the console view.
 
-    iv. Reservation class – releaseContract
 
-    v. Vehicle class – updateKeystatus
 
 Step 4: Use the provided TestDriver class to check the status of working.
 
