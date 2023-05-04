@@ -1,39 +1,49 @@
 {
-  "version": 2.0,
-  "questions": [
-    {
-      "question": "This is a Sample Question 1?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+    "version": 2.0,
+    "questions": [
+      {
+        "question":"1.In the Builder pattern, what is the purpose of the Builder class?",
+        "answers":{
+            "a": "a.To provide an interface for creating objects in a superclass",
+            "b": "b.To build the final object step by step",
+            "c": "c.To ensure that there is only one instance of an object created at any point",
+            "d": "d.To allow subclasses to alter the type of objects that will be created"
+      
       },
       "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "a",
-      "difficulty": "beginner"
+        },
+        "correctAnswer": "b",
+        "difficulty": "beginner"
     },
+    
     {
-      "question": "This is a Sample Question 2?",
-      "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "question": "2.Suppose you are working on a project that requires a class to represent a configuration manager, which is responsible for reading and writing configuration data used by the application. You need to ensure that only one instance of the configuration manager can exist at any given time.        Which of the following statements about using the Singleton design pattern to implement the configuration manager class is true?",
+        "answers": {
+          "a": "a.The configuration manager class should have a private constructor, a private static instance variable, and a public static method that returns the single instance of the class.",
+          "b": "b.The configuration manager class should have a public constructor, a private static instance variable, and a public static method that returns the single instance of the class.",
+          "c": "c.The configuration manager class should have a public constructor, a public instance variable, and a public static method that returns the single instance of the class.",
+          "d": "d.The configuration manager class should not use the Singleton design pattern, as it is not suitable for this scenario."
+        },
+        "explanations": {
+        },
+        "correctAnswer": "a",
+        "difficulty": "beginner"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
+     {
+        "question": "3.Which design pattern is being used to create the Customer and OfficeExecutive classes based on the attributes provided by the PersonFactory?",
+        "answers": {
+          "a": "a.Abstract Factory",
+          "b": "b.Builder",
+          "c": "c.Singleton",
+          "d": "d.Facade"
+        },
+        "explanations": {
+        },
+        "correctAnswer": "a",
+        "difficulty": "beginner"
+        
+
+
     }
-  ]
-}
+    ]
+      }
