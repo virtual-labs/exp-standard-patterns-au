@@ -42,6 +42,8 @@ Experiment 6 recap: The generalization of the class Customer and class Exec as t
 
 Experiment 7 recap: The steps to implement the polymorphic behaviour of the Person object as Customer and Exec objects before and after conversion of the class Person as abstract are performed.
 
+#### Steps to complete current experiment:
+
 Now, we are to implement the creational design patterns Singleton pattern and Factory pattern in Java.
 
 Step 1: Create the PersonFactory class and implement methods to return objects of the Customer or Exec class based on a text field parameter being passed.
