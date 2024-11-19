@@ -1,0 +1,44 @@
+{
+    "version": 2.0,
+    "questions": [
+      {
+        "question": "1.What is the main purpose of Creational Design Patterns?",
+        "answers": {
+          "a": "a.To provide an interface for creating objects in a superclass.",
+          "b": "b.To increase flexibility and reuse of existing code.",
+          "c": "c.To provide a more general and flexible approach to object creation.",
+          "d": "d.To ensure there is only one instance of an object created."
+        },
+        "explanations": {
+        },
+        "correctAnswer": "c",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "2.Which of the following is a need for using the Factory pattern?",
+        "answers": {
+          "a": "a.When a class wants to create objects of all its subclasses.",
+          "b": "b.When the parent classes choose the creation of objects to its sub-classes.",
+          "c": "c.When a class knows what sub-classes will be required to create.",
+          "d": "d.When a class wants to restrict the creation of objects to its subclasses."
+        },
+        "explanations": {
+        },
+        "correctAnswer": "d",
+        "difficulty": "beginner"
+      },
+      {
+        "question": "3.What is the purpose of the Singleton design pattern?",
+        "answers": {
+          "a": "a.To provide an interface for creating objects in a superclass.",
+          "b": "b.To increase flexibility and reuse of existing code.",
+          "c": "c.To ensure there is only one instance of an object created.",
+          "d": "d.To provide a more general and flexible approach to object creation."
+        },
+        "explanations": {
+        },
+        "correctAnswer": "c",
+        "difficulty": "beginner"
+      }
+    ]
+  }
