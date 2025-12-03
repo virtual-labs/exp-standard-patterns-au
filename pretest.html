@@ -356,7 +356,7 @@
                 
                 
                   <div class="question beginner">
-                    1.What is the main purpose of Creational Design Patterns?
+                    1. What is the main purpose of Creational Design Patterns?
                   </div>
                   
                   <div class="answers">
@@ -395,7 +395,7 @@
                 </div>
                 
                   <div class="question beginner">
-                    2.Which of the following is a need for using the Factory pattern?
+                    2. Which of the following is a need for using the Factory pattern?
                   </div>
                   
                   <div class="answers">
@@ -434,7 +434,7 @@
                 </div>
                 
                   <div class="question beginner">
-                    3.What is the purpose of the Singleton design pattern?
+                    3. What is the purpose of the Singleton design pattern?
                   </div>
                   
                   <div class="answers">
@@ -471,13 +471,92 @@
                     </div>
                     <p class="panel">Explanation</p>
                 </div>
+
+               <div class="question beginner">
+                    4. You are developing a system for an online coffee shop. Customers can order a basic coffee, and then add various condiments like milk, sugar, whipped cream, or chocolate syrup. Each condiment adds to the cost and modifies the description of the coffee. You want to design this system such that adding new condiments is easy and doesn't require modifying existing coffee classes. Which design pattern is most suitable for implementing the condiment addition functionality, allowing for flexible and dynamic addition of features (condiments) to a core object (coffee) without altering its structure?
+                  </div>
+                  
+                  <div class="answers">
+                    <div id="answer3a">
+                      <label>
+                        <input type="radio" name="question3" value="a">
+                        a: Factory Method Pattern
+                      </label>
+                      <a href="#" id="explanation3a" class="accordion" onclick="return false;">Explanation</a>
+                    </div>
+                    <p class="panel">Explanation</p>
+                    <div id="answer3b">
+                      <label>
+                        <input type="radio" name="question3" value="b">
+                        b: Observer Pattern
+                      </label>
+                      <a href="#" id="explanation3b" class="accordion" onclick="return false;">Explanation</a>
+                    </div>
+                    <p class="panel">Explanation</p>
+                    <div id="answer3c">
+                      <label>
+                        <input type="radio" name="question3" value="c">
+                        c: Decorator Pattern 
+                      </label>
+                      <a href="#" id="explanation3c" class="accordion" onclick="return false;">Explanation</a>
+                    </div>
+                    <p class="panel">Explanation</p>
+                    <div id="answer3d">
+                      <label>
+                        <input type="radio" name="question3" value="d">
+                        d: Strategy Pattern
+                      </label>
+                      <a href="#" id="explanation3d" class="accordion" onclick="return false;">Explanation</a>
+                    </div>
+                    <p class="panel">Explanation</p>
+                </div>
+
+                <div class="question beginner">
+                    5. Which of the following does not describe the Iterator Pattern?
+                  </div>
+                  
+                  <div class="answers">
+                    <div id="answer4a">
+                      <label>
+                        <input type="radio" name="question4" value="a">
+                        a: A pattern used to create an interface for creating families of related objects
+                      </label>
+                      <a href="#" id="explanation4a" class="accordion" onclick="return false;">Explanation</a>
+                    </div>
+                    <p class="panel">Explanation</p>
+                    <div id="answer4b">
+                      <label>
+                        <input type="radio" name="question4" value="b">
+                        b: A pattern where objects are arranged in a chain to handle requests sequentially
+                      </label>
+                      <a href="#" id="explanation4b" class="accordion" onclick="return false;">Explanation</a>
+                    </div>
+                    <p class="panel">Explanation</p>
+                    <div id="answer4c">
+                      <label>
+                        <input type="radio" name="question4" value="c">
+                        c: A pattern where objects notify other objects when a change occurs in their state 
+                      </label>
+                      <a href="#" id="explanation4c" class="accordion" onclick="return false;">Explanation</a>
+                    </div>
+                    <p class="panel">Explanation</p>
+                    <div id="answer4d">
+                      <label>
+                        <input type="radio" name="question4" value="d">
+                        d: A pattern that provides a way to access elements of an aggregate object without exposing its representation
+                      </label>
+                      <a href="#" id="explanation4d" class="accordion" onclick="return false;">Explanation</a>
+                    </div>
+                    <p class="panel">Explanation</p>
+                </div>
+
                </div>
                 <button id="submit" class="btn btn-primary">Submit Quiz</button>
                 <div id="results"></div>
           </div>
             
             <script>
-              const myQuestions = [{"question":"1.What is the main purpose of Creational Design Patterns?","answers":{"a":"a.To provide an interface for creating objects in a superclass.","b":"b.To increase flexibility and reuse of existing code.","c":"c.To provide a more general and flexible approach to object creation.","d":"d.To ensure there is only one instance of an object created."},"explanations":{},"correctAnswer":"c","difficulty":"beginner"},{"question":"2.Which of the following is a need for using the Factory pattern?","answers":{"a":"a.When a class wants to create objects of all its subclasses.","b":"b.When the parent classes choose the creation of objects to its sub-classes.","c":"c.When a class knows what sub-classes will be required to create.","d":"d.When a class wants to restrict the creation of objects to its subclasses."},"explanations":{},"correctAnswer":"d","difficulty":"beginner"},{"question":"3.What is the purpose of the Singleton design pattern?","answers":{"a":"a.To provide an interface for creating objects in a superclass.","b":"b.To increase flexibility and reuse of existing code.","c":"c.To ensure there is only one instance of an object created.","d":"d.To provide a more general and flexible approach to object creation."},"explanations":{},"correctAnswer":"c","difficulty":"beginner"}];
+              const myQuestions = [{"question":"1.What is the main purpose of Creational Design Patterns?","answers":{"a":"a.To provide an interface for creating objects in a superclass.","b":"b.To increase flexibility and reuse of existing code.","c":"c.To provide a more general and flexible approach to object creation.","d":"d.To ensure there is only one instance of an object created."},"explanations":{},"correctAnswer":"c","difficulty":"beginner"},{"question":"2.Which of the following is a need for using the Factory pattern?","answers":{"a":"a.When a class wants to create objects of all its subclasses.","b":"b.When the parent classes choose the creation of objects to its sub-classes.","c":"c.When a class knows what sub-classes will be required to create.","d":"d.When a class wants to restrict the creation of objects to its subclasses."},"explanations":{},"correctAnswer":"d","difficulty":"beginner"},{"question":"3.What is the purpose of the Singleton design pattern?","answers":{"a":"a.To provide an interface for creating objects in a superclass.","b":"b.To increase flexibility and reuse of existing code.","c":"c.To ensure there is only one instance of an object created.","d":"d.To provide a more general and flexible approach to object creation."},"explanations":{},"correctAnswer":"c","difficulty":"beginner"},{"question":"4.You are developing a system for an online coffee shop. Customers can order a basic coffee, and then add various condiments like milk, sugar, whipped cream, or chocolate syrup. Each condiment adds to the cost and modifies the description of the coffee. You want to design this system such that adding new condiments is easy and doesn't require modifying existing coffee classes. Which design pattern is most suitable for implementing the condiment addition functionality, allowing for flexible and dynamic addition of features (condiments) to a core object (coffee) without altering its structure?","answers":{"a":"a.Factory Method Pattern","b":"b.Observer Pattern","c":"c.Decorator Pattern ","d":"d.Strategy Pattern"},"explanations":{},"correctAnswer":"c","difficulty":"beginner"},{"question":"5.Which of the following does not describe the Iterator Pattern?","answers":{"a":"a.A pattern used to create an interface for creating families of related objects","b":"b.A pattern where objects are arranged in a chain to handle requests sequentially","c":"c.A pattern where objects notify other objects when a change occurs in their state ","d":"d.A pattern that provides a way to access elements of an aggregate object without exposing its representation"},"explanations":{},"correctAnswer":"c","difficulty":"beginner"}];
             </script>
               <script src="./assets/js/assessment_v2.js"></script>  
           <div class="bug-report-mobile">

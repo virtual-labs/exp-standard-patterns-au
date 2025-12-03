@@ -356,7 +356,7 @@
                 
                 
                   <div class="question beginner">
-                    1.In the Builder pattern, what is the purpose of the Builder class?
+                    1. In the Builder pattern, what is the purpose of the Builder class?
                   </div>
                   
                   <div class="answers">
@@ -395,7 +395,7 @@
                 </div>
                 
                   <div class="question beginner">
-                    2.Suppose you are working on a project that requires a class to represent a configuration manager, which is responsible for reading and writing configuration data used by the application. You need to ensure that only one instance of the configuration manager can exist at any given time.        Which of the following statements about using the Singleton design pattern to implement the configuration manager class is true?
+                    2. Suppose you are working on a project that requires a class to represent a configuration manager, which is responsible for reading and writing configuration data used by the application. You need to ensure that only one instance of the configuration manager can exist at any given time.        Which of the following statements about using the Singleton design pattern to implement the configuration manager class is true?
                   </div>
                   
                   <div class="answers">
@@ -434,7 +434,7 @@
                 </div>
                 
                   <div class="question beginner">
-                    3.Which design pattern is being used to create the Customer and OfficeExecutive classes based on the attributes provided by the PersonFactory?
+                    3. Which design pattern is being used to create the Customer and OfficeExecutive classes based on the attributes provided by the PersonFactory?
                   </div>
                   
                   <div class="answers">
@@ -471,13 +471,92 @@
                     </div>
                     <p class="panel">Explanation</p>
                 </div>
+
+                 <div class="question beginner">
+                    4. In a graphics editor, you have different shapes (like circles, squares, etc.) and wish to apply different effects (such as color or shadow) on top of these shapes dynamically. Which design pattern is best suited here?
+                  </div>
+                  
+                  <div class="answers">
+                    <div id="answer3a">
+                      <label>
+                        <input type="radio" name="question3" value="a">
+                        a: Decorator Pattern
+                      </label>
+                      <a href="#" id="explanation3a" class="accordion" onclick="return false;">Explanation</a>
+                    </div>
+                    <p class="panel">Explanation</p>
+                    <div id="answer3b">
+                      <label>
+                        <input type="radio" name="question3" value="b">
+                        b: Iterator Pattern
+                      </label>
+                      <a href="#" id="explanation3b" class="accordion" onclick="return false;">Explanation</a>
+                    </div>
+                    <p class="panel">Explanation</p>
+                    <div id="answer3c">
+                      <label>
+                        <input type="radio" name="question3" value="c">
+                        c: Flyweight Pattern
+                      </label>
+                      <a href="#" id="explanation3c" class="accordion" onclick="return false;">Explanation</a>
+                    </div>
+                    <p class="panel">Explanation</p>
+                    <div id="answer3d">
+                      <label>
+                        <input type="radio" name="question3" value="d">
+                        d: Prototype Pattern
+                      </label>
+                      <a href="#" id="explanation3d" class="accordion" onclick="return false;">Explanation</a>
+                    </div>
+                    <p class="panel">Explanation</p>
+                </div>
+
+                <div class="question beginner">
+                    5. You have implemented the Iterator pattern for your BookShelf class, creating a BookShelfIterator. Now, you realize that for certain functionalities, you need to traverse the books in reverse order, and also be able to add or remove books during iteration. Which type of Iterator would be most suitable to extend or implement to support these additional functionalities (bidirectional traversal and modification during iteration)?
+                  </div>
+                  
+                  <div class="answers">
+                    <div id="answer4a">
+                      <label>
+                        <input type="radio" name="question4" value="a">
+                        a: Basic Iterator interface
+                      </label>
+                      <a href="#" id="explanation4a" class="accordion" onclick="return false;">Explanation</a>
+                    </div>
+                    <p class="panel">Explanation</p>
+                    <div id="answer4b">
+                      <label>
+                        <input type="radio" name="question4" value="b">
+                        b: ListIterator 
+                      </label>
+                      <a href="#" id="explanation4b" class="accordion" onclick="return false;">Explanation</a>
+                    </div>
+                    <p class="panel">Explanation</p>
+                    <div id="answer4c">
+                      <label>
+                        <input type="radio" name="question4" value="c">
+                        c: Custom ReverseIterator
+                      </label>
+                      <a href="#" id="explanation4c" class="accordion" onclick="return false;">Explanation</a>
+                    </div>
+                    <p class="panel">Explanation</p>
+                    <div id="answer4d">
+                      <label>
+                        <input type="radio" name="question4" value="d">
+                        d: Enumeration
+                      </label>
+                      <a href="#" id="explanation4d" class="accordion" onclick="return false;">Explanation</a>
+                    </div>
+                    <p class="panel">Explanation</p>
+                </div>
+
                </div>
                 <button id="submit" class="btn btn-primary">Submit Quiz</button>
                 <div id="results"></div>
           </div>
             
             <script>
-              const myQuestions = [{"question":"1.In the Builder pattern, what is the purpose of the Builder class?","answers":{"a":"a.To provide an interface for creating objects in a superclass","b":"b.To build the final object step by step","c":"c.To ensure that there is only one instance of an object created at any point","d":"d.To allow subclasses to alter the type of objects that will be created"},"explanations":{},"correctAnswer":"b","difficulty":"beginner"},{"question":"2.Suppose you are working on a project that requires a class to represent a configuration manager, which is responsible for reading and writing configuration data used by the application. You need to ensure that only one instance of the configuration manager can exist at any given time.        Which of the following statements about using the Singleton design pattern to implement the configuration manager class is true?","answers":{"a":"a.The configuration manager class should have a private constructor, a private static instance variable, and a public static method that returns the single instance of the class.","b":"b.The configuration manager class should have a public constructor, a private static instance variable, and a public static method that returns the single instance of the class.","c":"c.The configuration manager class should have a public constructor, a public instance variable, and a public static method that returns the single instance of the class.","d":"d.The configuration manager class should not use the Singleton design pattern, as it is not suitable for this scenario."},"explanations":{},"correctAnswer":"a","difficulty":"beginner"},{"question":"3.Which design pattern is being used to create the Customer and OfficeExecutive classes based on the attributes provided by the PersonFactory?","answers":{"a":"a.Abstract Factory","b":"b.Builder","c":"c.Singleton","d":"d.Facade"},"explanations":{},"correctAnswer":"a","difficulty":"beginner"}];
+              const myQuestions = [{"question":"1.In the Builder pattern, what is the purpose of the Builder class?","answers":{"a":"a.To provide an interface for creating objects in a superclass","b":"b.To build the final object step by step","c":"c.To ensure that there is only one instance of an object created at any point","d":"d.To allow subclasses to alter the type of objects that will be created"},"explanations":{},"correctAnswer":"b","difficulty":"beginner"},{"question":"2.Suppose you are working on a project that requires a class to represent a configuration manager, which is responsible for reading and writing configuration data used by the application. You need to ensure that only one instance of the configuration manager can exist at any given time.        Which of the following statements about using the Singleton design pattern to implement the configuration manager class is true?","answers":{"a":"a.The configuration manager class should have a private constructor, a private static instance variable, and a public static method that returns the single instance of the class.","b":"b.The configuration manager class should have a public constructor, a private static instance variable, and a public static method that returns the single instance of the class.","c":"c.The configuration manager class should have a public constructor, a public instance variable, and a public static method that returns the single instance of the class.","d":"d.The configuration manager class should not use the Singleton design pattern, as it is not suitable for this scenario."},"explanations":{},"correctAnswer":"a","difficulty":"beginner"},{"question":"3.Which design pattern is being used to create the Customer and OfficeExecutive classes based on the attributes provided by the PersonFactory?","answers":{"a":"a.Abstract Factory","b":"b.Builder","c":"c.Singleton","d":"d.Facade"},"explanations":{},"correctAnswer":"a","difficulty":"beginner"},{"question":"4.In a graphics editor, you have different shapes (like circles, squares, etc.) and wish to apply different effects (such as color or shadow) on top of these shapes dynamically. Which design pattern is best suited here?","answers":{"a":"a.Decorator Pattern","b":"b.Iterator Pattern","c":"c.Flyweight Pattern","d":"d.Prototype Pattern"},"explanations":{},"correctAnswer":"a","difficulty":"beginner"},{"question":"5.You have implemented the Iterator pattern for your BookShelf class, creating a BookShelfIterator. Now, you realize that for certain functionalities, you need to traverse the books in reverse order, and also be able to add or remove books during iteration. Which type of Iterator would be most suitable to extend or implement to support these additional functionalities (bidirectional traversal and modification during iteration)?","answers":{"a":"a.Basic Iterator interface","b":"b.ListIterator ","c":"c.Custom ReverseIterator","d":"d.Enumeration"},"explanations":{},"correctAnswer":"b","difficulty":"beginner"}];
             </script>
               <script src="./assets/js/assessment_v2.js"></script>  
           <div class="bug-report-mobile">
