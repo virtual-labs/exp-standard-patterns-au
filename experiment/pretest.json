@@ -2,7 +2,7 @@
     "version": 2.0,
     "questions": [
       {
-        "question": "1.What is the main purpose of Creational Design Patterns?",
+        "question": "1. What is the main purpose of Creational Design Patterns?",
         "answers": {
           "a": "a.To provide an interface for creating objects in a superclass.",
           "b": "b.To increase flexibility and reuse of existing code.",
@@ -15,7 +15,7 @@
         "difficulty": "beginner"
       },
       {
-        "question": "2.Which of the following is a need for using the Factory pattern?",
+        "question": "2. Which of the following is a need for using the Factory pattern?",
         "answers": {
           "a": "a.When a class wants to create objects of all its subclasses.",
           "b": "b.When the parent classes choose the creation of objects to its sub-classes.",
@@ -28,12 +28,38 @@
         "difficulty": "beginner"
       },
       {
-        "question": "3.What is the purpose of the Singleton design pattern?",
+        "question": "3. What is the purpose of the Singleton design pattern?",
         "answers": {
           "a": "a.To provide an interface for creating objects in a superclass.",
           "b": "b.To increase flexibility and reuse of existing code.",
           "c": "c.To ensure there is only one instance of an object created.",
           "d": "d.To provide a more general and flexible approach to object creation."
+        },
+        "explanations": {
+        },
+        "correctAnswer": "c",
+        "difficulty": "beginner"
+      },
+            {
+        "question": "4. You are developing a system for an online coffee shop. Customers can order a basic coffee, and then add various condiments like milk, sugar, whipped cream, or chocolate syrup. Each condiment adds to the cost and modifies the description of the coffee. You want to design this system such that adding new condiments is easy and doesn't require modifying existing coffee classes. Which design pattern is most suitable for implementing the condiment addition functionality, allowing for flexible and dynamic addition of features (condiments) to a core object (coffee) without altering its structure?",
+        "answers": {
+          "a": "a.Factory Method Pattern",
+          "b": "b.Observer Pattern",
+          "c": "c.Decorator Pattern ",
+          "d": "d.Strategy Pattern"
+        },
+        "explanations": {
+        },
+        "correctAnswer": "c",
+        "difficulty": "beginner"
+      },
+            {
+        "question": "5. Which of the following does not describe the Iterator Pattern?",
+        "answers": {
+          "a": "a.A pattern used to create an interface for creating families of related objects",
+          "b": "b.A pattern where objects are arranged in a chain to handle requests sequentially",
+          "c": "c.A pattern where objects notify other objects when a change occurs in their state ",
+          "d": "d.A pattern that provides a way to access elements of an aggregate object without exposing its representation"
         },
         "explanations": {
         },
