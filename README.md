@@ -4,7 +4,8 @@
 | <b>Discipline  | <b> Computer Science and Engineering                          |
 :--|:--|
 <b> Lab | <b> Object Oriented Programming
-<b> Experiment|     <b>Structural and Behavioural Patterns
+<b> Experiment|     <b>To implement standard patterns of object creation
+
 ### About the Experiment 
 
 <b>Name of Developer | <b> Dr. Krishnashree Achuthan
