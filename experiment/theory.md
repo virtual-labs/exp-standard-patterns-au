@@ -1,6 +1,6 @@
-# To Implement Standard Patterns of Object Creation
 
-## Theory
+
+### Theory
 
 **Creational Patterns** provide object creation mechanisms that increase flexibility and reuse of existing code. Everyone knows that `new` keyword is used to create an object. Sometimes, the nature of the object must be changed according to the nature of the program. In such cases, we must get the help of creational design patterns to provide more general and flexible approach.
 
@@ -8,11 +8,11 @@ Consider the following creational patterns:
 
 ---
 
-## Factory Pattern
+#### Factory Pattern
 
 **Factory** is a creational design pattern that provides an interface for creating objects in a superclass but allows subclasses to alter the type of objects that will be created.
 
-### Need for Factory Pattern
+#### Need for Factory Pattern
 
 - When a class doesn't know what sub-classes will be required to create  
 - When a class wants that its sub-classes specify the objects to be created  
@@ -50,7 +50,7 @@ The class `ShapeFactory` and `ShapeDemo` are designed as follows:
 
 ---
 
-## Singleton Pattern
+#### Singleton Pattern
 
 **Singleton** pattern makes sure that there is only one instance of an object created at any point.
 
@@ -62,7 +62,7 @@ Singleton `Shape` class provides a static method to get its static instance to t
 
 ---
 
-## Builder Pattern
+#### Builder Pattern
 
 **Builder Pattern**: A Builder class builds the final object step by step. This builder is independent of other objects.
 
