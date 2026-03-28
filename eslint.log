@@ -1,0 +1,205 @@
+
+/home/runner/work/exp-standard-patterns-au/exp-standard-patterns-au/experiment/simulation/js/AbstractionView-083f5250.js
+    1:3068  warning  'o' is defined but never used  no-unused-vars
+   62:220   warning  'o' is defined but never used  no-unused-vars
+  106:928   warning  'o' is defined but never used  no-unused-vars
+
+/home/runner/work/exp-standard-patterns-au/exp-standard-patterns-au/experiment/simulation/js/CongratulationsPage-67d0fe4b.js
+  1:111  warning  'i' is defined but never used  no-unused-vars
+  1:113  warning  'l' is defined but never used  no-unused-vars
+  1:115  warning  'p' is defined but never used  no-unused-vars
+  1:117  warning  'u' is defined but never used  no-unused-vars
+
+/home/runner/work/exp-standard-patterns-au/exp-standard-patterns-au/experiment/simulation/js/MethodCompletionExecutionView-98f3f88f.js
+  36:528  warning  'm' is defined but never used  no-unused-vars
+
+/home/runner/work/exp-standard-patterns-au/exp-standard-patterns-au/experiment/simulation/js/MethodCompletionView-2a28eff7.js
+    1:1972  warning  'b' is defined but never used  no-unused-vars
+   34:4519  warning  'o' is defined but never used  no-unused-vars
+   34:4686  warning  'o' is defined but never used  no-unused-vars
+   34:4851  warning  'o' is defined but never used  no-unused-vars
+   37:1745  warning  'o' is defined but never used  no-unused-vars
+   44:538   warning  'o' is defined but never used  no-unused-vars
+   54:501   warning  'o' is defined but never used  no-unused-vars
+   66:552   warning  'o' is defined but never used  no-unused-vars
+   80:526   warning  'o' is defined but never used  no-unused-vars
+  151:834   warning  'o' is defined but never used  no-unused-vars
+  151:1010  warning  'o' is defined but never used  no-unused-vars
+  151:1174  warning  'o' is defined but never used  no-unused-vars
+  151:1344  warning  'o' is defined but never used  no-unused-vars
+  151:1504  warning  'o' is defined but never used  no-unused-vars
+  151:1671  warning  'o' is defined but never used  no-unused-vars
+  151:1846  warning  'o' is defined but never used  no-unused-vars
+  151:2035  warning  'o' is defined but never used  no-unused-vars
+  151:2515  warning  'o' is defined but never used  no-unused-vars
+
+/home/runner/work/exp-standard-patterns-au/exp-standard-patterns-au/experiment/simulation/js/SignContractView-3e0c7374.js
+    1:4006  warning  'o' is defined but never used  no-unused-vars
+   51:1461  warning  'o' is defined but never used  no-unused-vars
+  116:67    warning  'o' is defined but never used  no-unused-vars
+
+/home/runner/work/exp-standard-patterns-au/exp-standard-patterns-au/experiment/simulation/js/StringcompareComponent-ec516131.js
+  1:3105  warning  'o' is defined but never used  no-unused-vars
+
+/home/runner/work/exp-standard-patterns-au/exp-standard-patterns-au/experiment/simulation/js/UpDownCastView-7c481c5b.js
+   55:828   warning  'd' is defined but never used  no-unused-vars
+   55:6670  warning  'n' is defined but never used  no-unused-vars
+   55:6837  warning  'n' is defined but never used  no-unused-vars
+   55:7012  warning  'n' is defined but never used  no-unused-vars
+   55:7187  warning  'n' is defined but never used  no-unused-vars
+   55:7362  warning  'n' is defined but never used  no-unused-vars
+   55:7529  warning  'n' is defined but never used  no-unused-vars
+   55:7704  warning  'n' is defined but never used  no-unused-vars
+   55:7879  warning  'n' is defined but never used  no-unused-vars
+   60:666   warning  'n' is defined but never used  no-unused-vars
+   67:879   warning  'n' is defined but never used  no-unused-vars
+   77:878   warning  'n' is defined but never used  no-unused-vars
+   88:880   warning  'n' is defined but never used  no-unused-vars
+  100:797   warning  'n' is defined but never used  no-unused-vars
+  116:888   warning  'n' is defined but never used  no-unused-vars
+  134:1094  warning  'n' is defined but never used  no-unused-vars
+  153:724   warning  'n' is defined but never used  no-unused-vars
+  174:77    warning  'n' is defined but never used  no-unused-vars
+  174:797   warning  'n' is defined but never used  no-unused-vars
+  174:973   warning  'n' is defined but never used  no-unused-vars
+  174:1136  warning  'n' is defined but never used  no-unused-vars
+  174:1300  warning  'n' is defined but never used  no-unused-vars
+  174:1470  warning  'n' is defined but never used  no-unused-vars
+  174:1630  warning  'n' is defined but never used  no-unused-vars
+  174:1809  warning  'n' is defined but never used  no-unused-vars
+  174:1976  warning  'n' is defined but never used  no-unused-vars
+  174:2413  warning  'n' is defined but never used  no-unused-vars
+
+/home/runner/work/exp-standard-patterns-au/exp-standard-patterns-au/experiment/simulation/js/UpdateKeyStatusView-5acc7e4b.js
+   1:3957  warning  'i' is defined but never used  no-unused-vars
+  10:894   warning  'i' is defined but never used  no-unused-vars
+  41:67    warning  'i' is defined but never used  no-unused-vars
+
+/home/runner/work/exp-standard-patterns-au/exp-standard-patterns-au/experiment/simulation/js/abstractComponent-f6cab742.js
+  17:1175  warning  'n' is defined but never used  no-unused-vars
+
+/home/runner/work/exp-standard-patterns-au/exp-standard-patterns-au/experiment/simulation/js/arrayListComponent-ab4ee9a4.js
+  1:2762  warning  'a' is defined but never used  no-unused-vars
+
+/home/runner/work/exp-standard-patterns-au/exp-standard-patterns-au/experiment/simulation/js/arraysComponent-dbab08de.js
+  1:2955  warning  'n' is defined but never used  no-unused-vars
+
+/home/runner/work/exp-standard-patterns-au/exp-standard-patterns-au/experiment/simulation/js/classCastExceptionComponent-8f6ad5fe.js
+  12:64  warning  's' is defined but never used  no-unused-vars
+
+/home/runner/work/exp-standard-patterns-au/exp-standard-patterns-au/experiment/simulation/js/constructorWritingComponent-b018f305.js
+  1:2888  warning  'r' is defined but never used  no-unused-vars
+
+/home/runner/work/exp-standard-patterns-au/exp-standard-patterns-au/experiment/simulation/js/dateComponent-02897adf.js
+  1:3274  warning  'a' is defined but never used  no-unused-vars
+
+/home/runner/work/exp-standard-patterns-au/exp-standard-patterns-au/experiment/simulation/js/extendsComponent-2285358b.js
+  16:58  warning  'o' is defined but never used  no-unused-vars
+
+/home/runner/work/exp-standard-patterns-au/exp-standard-patterns-au/experiment/simulation/js/functionCallingWithObjectComponent-e614d4ee.js
+  1:3354  warning  'n' is defined but never used  no-unused-vars
+
+/home/runner/work/exp-standard-patterns-au/exp-standard-patterns-au/experiment/simulation/js/getterComponent-9e89731e.js
+  1:2936  warning  'r' is defined but never used  no-unused-vars
+
+/home/runner/work/exp-standard-patterns-au/exp-standard-patterns-au/experiment/simulation/js/index-c0d224d2.js
+   5:1591   warning  'global' is not defined                                                    no-undef
+   9:4292   warning  't' is defined but never used                                              no-unused-vars
+   9:4805   warning  't' is defined but never used                                              no-unused-vars
+   9:5324   warning  'r' is defined but never used                                              no-unused-vars
+   9:5326   warning  'o' is defined but never used                                              no-unused-vars
+   9:8392   warning  Do not access Object.prototype method 'hasOwnProperty' from target object  no-prototype-builtins
+   9:9657   warning  't' is defined but never used                                              no-unused-vars
+   9:9659   warning  'n' is defined but never used                                              no-unused-vars
+   9:9686   warning  't' is defined but never used                                              no-unused-vars
+   9:9688   warning  'n' is defined but never used                                              no-unused-vars
+   9:10157  warning  't' is defined but never used                                              no-unused-vars
+   9:14019  warning  't' is assigned a value but never used                                     no-unused-vars
+  13:627    warning  's' is assigned a value but never used                                     no-unused-vars
+  13:1424   warning  'e' is defined but never used                                              no-unused-vars
+  13:1702   warning  'e' is defined but never used                                              no-unused-vars
+  13:1711   warning  't' is assigned a value but never used                                     no-unused-vars
+  13:2086   warning  'n' is defined but never used                                              no-unused-vars
+  13:7057   warning  'n' is assigned a value but never used                                     no-unused-vars
+  13:9177   warning  'F' is assigned a value but never used                                     no-unused-vars
+  13:9205   warning  'R' is assigned a value but never used                                     no-unused-vars
+  13:9359   warning  'Ft' is assigned a value but never used                                    no-unused-vars
+  13:9719   warning  Setter cannot return a value                                               no-setter-return
+  13:10157  warning  Setter cannot return a value                                               no-setter-return
+  13:10331  warning  'n' is assigned a value but never used                                     no-unused-vars
+  13:10549  warning  Setter cannot return a value                                               no-setter-return
+  13:16459  warning  'n' is defined but never used                                              no-unused-vars
+  13:27698  warning  'r' is assigned a value but never used                                     no-unused-vars
+  13:27713  warning  'i' is assigned a value but never used                                     no-unused-vars
+  13:36719  warning  'n' is defined but never used                                              no-unused-vars
+  17:118    warning  Empty block statement                                                      no-empty
+  17:3708   warning  Empty block statement                                                      no-empty
+  17:4122   warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  17:7005   warning  'MathMLElement' is not defined                                             no-undef
+  17:7201   warning  'e' is defined but never used                                              no-unused-vars
+  17:7203   warning  't' is defined but never used                                              no-unused-vars
+  17:7617   warning  Redundant double negation                                                  no-extra-boolean-cast
+  21:1046   warning  Empty block statement                                                      no-empty
+  21:2678   warning  Unnecessary escape character: \/                                           no-useless-escape
+  21:10985  warning  Expected a conditional expression and instead saw an assignment            no-cond-assign
+  21:15380  warning  'D' is defined but never used                                              no-unused-vars
+  21:21111  warning  'G' is defined but never used                                              no-unused-vars
+  21:26479  warning  'i' is defined but never used                                              no-unused-vars
+  21:26922  warning  'i' is defined but never used                                              no-unused-vars
+  21:27373  warning  'i' is defined but never used                                              no-unused-vars
+  21:27803  warning  'i' is defined but never used                                              no-unused-vars
+  21:28243  warning  'i' is defined but never used                                              no-unused-vars
+  21:28373  warning  'i' is defined but never used                                              no-unused-vars
+
+/home/runner/work/exp-standard-patterns-au/exp-standard-patterns-au/experiment/simulation/js/interfaceComponent-d2c7b039.js
+  18:1332  warning  's' is defined but never used  no-unused-vars
+
+/home/runner/work/exp-standard-patterns-au/exp-standard-patterns-au/experiment/simulation/js/locateReservationView-56fb365f.js
+    1:4274  warning  'r' is defined but never used  no-unused-vars
+   51:1110  warning  'r' is defined but never used  no-unused-vars
+  115:67    warning  'r' is defined but never used  no-unused-vars
+
+/home/runner/work/exp-standard-patterns-au/exp-standard-patterns-au/experiment/simulation/js/newVariableComponent-0098c706.js
+  1:2322  warning  'n' is defined but never used  no-unused-vars
+
+/home/runner/work/exp-standard-patterns-au/exp-standard-patterns-au/experiment/simulation/js/nullPointerExceptionComponent-b96ef88a.js
+  14:72  warning  'l' is defined but never used  no-unused-vars
+
+/home/runner/work/exp-standard-patterns-au/exp-standard-patterns-au/experiment/simulation/js/objectCreationComponent-cf4e8c41.js
+  1:2352  warning  'n' is defined but never used  no-unused-vars
+
+/home/runner/work/exp-standard-patterns-au/exp-standard-patterns-au/experiment/simulation/js/parseExceptionComponent-230912d6.js
+  11:315  warning  's' is defined but never used  no-unused-vars
+
+/home/runner/work/exp-standard-patterns-au/exp-standard-patterns-au/experiment/simulation/js/passingArgumentsToFunctionsComponent-d6a8e5b1.js
+  13:1075  warning  's' is defined but never used  no-unused-vars
+
+/home/runner/work/exp-standard-patterns-au/exp-standard-patterns-au/experiment/simulation/js/printFunctionComponent-fb083c3d.js
+  1:2632  warning  'o' is defined but never used  no-unused-vars
+
+/home/runner/work/exp-standard-patterns-au/exp-standard-patterns-au/experiment/simulation/js/releaseContractView-59726c1c.js
+    1:3831  warning  'r' is defined but never used  no-unused-vars
+   57:930   warning  'r' is defined but never used  no-unused-vars
+  121:67    warning  'r' is defined but never used  no-unused-vars
+
+/home/runner/work/exp-standard-patterns-au/exp-standard-patterns-au/experiment/simulation/js/requestVehicleView-fe7e489e.js
+    1:3945  warning  'i' is defined but never used  no-unused-vars
+   38:701   warning  'i' is defined but never used  no-unused-vars
+   82:910   warning  'i' is defined but never used  no-unused-vars
+  133:67    warning  'i' is defined but never used  no-unused-vars
+
+/home/runner/work/exp-standard-patterns-au/exp-standard-patterns-au/experiment/simulation/js/setterComponent-272306e4.js
+  1:2877  warning  'o' is defined but never used  no-unused-vars
+
+/home/runner/work/exp-standard-patterns-au/exp-standard-patterns-au/experiment/simulation/js/superKeywordComponent-79cfc5e0.js
+  38:293  warning  'n' is defined but never used  no-unused-vars
+
+/home/runner/work/exp-standard-patterns-au/exp-standard-patterns-au/experiment/simulation/js/thisComponent-592a4f36.js
+  14:934  warning  's' is defined but never used  no-unused-vars
+
+/home/runner/work/exp-standard-patterns-au/exp-standard-patterns-au/experiment/simulation/js/tryCatchComponent-8bd58cac.js
+  10:66  warning  'o' is defined but never used  no-unused-vars
+
+✖ 137 problems (0 errors, 137 warnings)
+  0 errors and 1 warning potentially fixable with the `--fix` option.
+
