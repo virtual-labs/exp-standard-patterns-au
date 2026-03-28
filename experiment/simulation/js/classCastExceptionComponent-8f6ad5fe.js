@@ -1,0 +1,12 @@
+import{_ as i,o as a,c as r,a as t,d as o,w as c,v as d,i as u,F as p}from"./index-c0d224d2.js";const m={data(){return{}},methods:{incorrect(n){var e=document.getElementById("snackbar");e.innerHTML=n,e.style.backgroundColor="red",e.className="show",setTimeout(function(){e.className=e.className.replace("show","")},3e3)},correct1(){var n=document.getElementById("snackbar");n.innerHTML="Correct",n.style.backgroundColor="green",n.className="show",setTimeout(function(){n.className=n.className.replace("show","")},3e3)},validate_one(){this.one.trim()=="3"?(this.correct1(),alert("Correct")):(this.incorrect("Try again"),alert("Incorrect, please try again"))}}},y={class:"flex-row"},b={style:{width:"50%"}},g={class:"outbox"},v={id:"buttons",class:"relative"},x={key:0,class:"navitem"};function f(n,e,h,w,C,l){return a(),r(p,null,[e[8]||(e[8]=t("header",{style:{padding:"20px"}},[t("h5",null,"HELP"),t("h1",null,"Class Cast Exception")],-1)),e[9]||(e[9]=t("div",{id:"snackbar"},"Some text some message..",-1)),t("main",null,[t("div",y,[e[7]||(e[7]=t("div",{style:{width:"50%"}},[t("h2",null,"Theory"),t("div",{class:"outbox"},[t("pre",null,`1.  Object obj = "Hello";
+2.  Integer num = (Integer) obj; 
+            `),t("span",{id:"comment"},"//2nd line will throw a ClassCastException since we are trying to cast an object of type String to an Integer. "),t("br")]),t("div",{class:"content"},[t("p",null," ClassCastException is a runtime exception that occurs when you try to cast an object to a type that it is not compatible with. To avoid this exception, you should always check the type of the object before casting it to another type. ")])],-1)),t("div",b,[e[6]||(e[6]=t("h2",null,"Try it yourself",-1)),t("div",g,[t("pre",null,[e[2]||(e[2]=o(`1.    Object obj = "Hello";
+2.    if (obj instanceof Integer) {
+3.        Integer num = (Integer) obj; 
+4.    } else {
+5.        System.out.println("obj is not an instance of Integer");
+6.    }
+        
+      `)),c(t("input",{type:"text","onUpdate:modelValue":e[0]||(e[0]=s=>n.one=s)},null,512),[[d,n.one]]),e[3]||(e[3]=o(`
+        `)),e[4]||(e[4]=t("span",{id:"comment"},"//In which line excption occurs (eg:1 or 2)",-1)),e[5]||(e[5]=o(`
+      `))])]),t("button",{class:"button-9",onClick:e[1]||(e[1]=s=>l.validate_one())}," Validate ")])]),t("footer",null,[t("div",v,[n.currentStep===1?(a(),r("button",x,"Next")):u("",!0)])])])],64)}const j=i(m,[["render",f],["__scopeId","data-v-ce890ce0"]]);export{j as default};
